@@ -1,0 +1,119 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e30;
+}
+.nav-content-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1e1e30;
+}
+@media screen and (min-width: 768px) {
+  .nav-content-mobile {
+    display: none;
+  }
+}
+
+.nav-content-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 578px) {
+  .nav-content-desktop {
+    display: none;
+  }
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e30;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+.covid-text {
+  width: 130px;
+  height: 24px;
+  left: 150px;
+  top: 28px;
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #f8fafc;
+}
+@media screen and (max-width: 578px) {
+  .covid-text {
+    width: 104px;
+    height: 24px;
+    margin-left: 0px;
+    font-family: Bree Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #f8fafc;
+  }
+}
+.covid-span {
+  color: #007bff;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-menu-item {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+  list-style-type: none;
+}
+@media screen and (min-width: 992px) {
+  .nav-menu-item {
+    font-size: 16px;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.close {
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: end;
+  padding-left: 200px;
+  border: none;
+}
+.button-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

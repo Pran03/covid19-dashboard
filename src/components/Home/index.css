@@ -1,0 +1,242 @@
+.home-container-app {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.sorting-button {
+  background-color: transparent;
+  color: #94a3b8;
+  height: 20px;
+  width: 25px;
+  border-width: 0px;
+  margin-top: 10px;
+}
+
+.states-head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.state-name-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.state-head-details {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  text-align: right;
+  width: 100px;
+}
+@media screen and (min-width: 1200px) {
+  .state-head-details {
+    margin-left: 26px;
+  }
+}
+.cases-heading-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #2f2f43;
+  margin-top: 60px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.search-icon {
+  color: #94a3b8;
+  margin: 10px;
+  margin-top: 12px;
+  height: 20px;
+  width: 20px;
+}
+.search-input {
+  height: 40px;
+  color: #94a3b8;
+  background-color: #2f2f43;
+  font-size: 16px;
+  font-family: Roboto;
+  width: 50vw;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 0px;
+  outline: none;
+}
+.cases-images {
+  padding: 10px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .cases-images {
+    padding: 0px;
+    margin-left: 0px;
+  }
+}
+.case-cards-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: 0px;
+  margin-top: 20px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .case-cards-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+.state-wise-container {
+  width: 90%;
+}
+@media screen and (min-width: 1200px) {
+  .state-wise-container {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .state-wise-container {
+    overflow-x: scroll;
+  }
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  background: #1e1e30;
+  border: 1px solid #475569;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .table {
+    width: 700px;
+    margin-left: 24px;
+  }
+}
+.btn-con {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+.horizontal-line {
+  border: 1px solid #475569;
+  width: 95%;
+}
+.sort-icon {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: #94a3b8;
+}
+.search-unordered {
+  padding-left: 0px;
+}
+
+.home-cases-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 992px) {
+  .home-cases-container {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-cases-container {
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+  }
+}
+
+.home-cases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 264px;
+  height: 232px;
+  left: 150px;
+  top: 308px;
+}
+@media screen and (max-width: 768px) {
+  .home-cases {
+    width: 93px;
+    height: 96px;
+    margin: 30px;
+  }
+}
+.statsName {
+  width: 75px;
+  height: 24px;
+  left: 244px;
+  top: 328px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.count {
+  width: 139px;
+  height: 24px;
+  left: 212px;
+  top: 446px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.confirmed-state {
+  color: #ff073a;
+  text-align: center;
+}
+.recovered-state {
+  color: #28a745;
+  text-align: center;
+}
+.active-state {
+  color: #007bff;
+  text-align: center;
+}
+.deceased-state {
+  color: #6c757d;
+  text-align: center;
+}

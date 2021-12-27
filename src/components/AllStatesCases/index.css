@@ -1,0 +1,48 @@
+.ul-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f5f9;
+  width: 110px;
+  text-align: left;
+}
+.case {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100px;
+}
+.active {
+  color: #007bff;
+  text-align: right;
+}
+
+.confirmed {
+  color: #ff073a;
+  text-align: right;
+}
+
+.deceased {
+  color: #6c757d;
+  text-align: right;
+}
+
+.population {
+  color: #94a3b8;
+  text-align: right;
+}
+.recovered {
+  color: #28a745;
+  text-align: right;
+}
